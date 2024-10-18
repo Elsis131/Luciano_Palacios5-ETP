@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Productos</h1>
+        <nav>
+            <button onclick="window.location.href='agregar_rubros.html'">Agregar Rubros</button>
+            <button onclick="window.location.href='agregar_productos.html'">Agregar Productos</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="rubros">
+            <h2>Rubros Disponibles</h2>
+            <ul id="listaRubros"></ul>
+        </section>
+
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <table id="tablaProductos">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Stock</th>
+                        <th>Precio</th>
+                        <th>Rubro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se llenarán los productos -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="./gestión.js"></script>
+</body>
+</html>
