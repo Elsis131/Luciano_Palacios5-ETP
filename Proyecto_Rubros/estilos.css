@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b; /* Fondo oscuro */
+    color: #e7e7e7; /* Texto claro */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Encabezados */
+h1, h2 {
+    color: #ff4c4c; /* Color de encabezados en rojo vibrante */
+}
+
+/* Navegación */
+nav {
+    margin-bottom: 20px;
+}
+
+/* Estilos para botones */
+button {
+    background-color: #ff4c4c; /* Rojo vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ff3333; /* Rojo más oscuro al pasar el cursor */
+}
+
+/* Tabla de productos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ff4c4c; /* Bordes de la tabla en rojo vibrante */
+    padding: 10px;
+    text-align: center;
+    color: #e7e7e7; /* Texto en color claro */
+}
+
+th {
+    background-color: #ff1f1f; /* Fondo de los encabezados de la tabla en rojo oscuro */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #333; /* Color alternativo para filas */
+}
+
+/* Formularios */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2c2c2c; /* Fondo gris oscuro para formularios */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff4c4c; /* Borde rojo vibrante */
+    border-radius: 5px;
+    background-color: #444; /* Fondo oscuro para campos de entrada */
+    color: #e7e7e7; /* Texto claro */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #ff1f1f; /* Color de borde al enfocar */
+}
+
+/* Lista de productos y rubros */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #333; /* Color de fondo para elementos de la lista */
+    border-radius: 5px;
+}
+
+/* Mensajes de alerta */
+.alert {
+    color: #ff4c4c; /* Color rojo vibrante para alertas */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para el contenedor principal */
+main {
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    padding: 20px;
+    background-color: #2c2c2c; /* Fondo gris oscuro para el contenedor principal */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
